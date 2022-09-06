@@ -1,0 +1,16 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+{% block title %}Про себя{% endblock %}
+
+{% block content %}
+        <div class="photo">
+                <div><img src="{% static 'main/img/book.jpg' %}"></div>
+
+        </div>
+        <div class="features">
+                <h1>О себе</h1>
+                <p>Немного фотограф, немного и оптимст</p>
+                <g>Контакты и номер телефона спрашивать лично при встрече, или же нажмите на кноку:) -> </g>
+                <button class="btn btn-warning"; onclick="window.location.href ='https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley' ">Нажми</button>
+        </div>
+{% endblock %}
